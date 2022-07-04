@@ -1,0 +1,48 @@
+wandb_version: 1
+
+Batch_normalization:
+  desc: null
+  value: 'True'
+Edge_detection:
+  desc: null
+  value: canny
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.12.7
+    framework: keras
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    python_version: 3.9.9
+    start_time: 1638983745
+    t:
+      1:
+      - 2
+      - 3
+      2:
+      - 2
+      - 3
+      3:
+      - 3
+      - 8
+      - 16
+      4: 3.9.9
+      5: 0.12.7
+      8:
+      - 3
+      - 5
+batch_size:
+  desc: null
+  value: 100
+epochs:
+  desc: null
+  value: 15
+filters:
+  desc: null
+  value: 1
+loss:
+  desc: null
+  value: sparse_categorical_crossentropy
+pooling:
+  desc: null
+  value: Max
